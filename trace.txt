@@ -1,0 +1,8 @@
+======== Resolving module './components/button' from '/TypescriptTest/app/index.ts'. ========
+Explicitly specified module resolution kind: 'NodeJs'.
+Loading module as file / folder, candidate module location '/TypescriptTest/app/components/button', target file type 'TypeScript'.
+Directory '/TypescriptTest/app/components' does not exist, skipping all lookups in it.
+Loading module as file / folder, candidate module location '/TypescriptTest/app/components/button', target file type 'JavaScript'.
+Directory '/TypescriptTest/app/components' does not exist, skipping all lookups in it.
+======== Module name './components/button' was not resolved. ========
+app/index.ts(3,30): error TS2307: Cannot find module './components/button'.

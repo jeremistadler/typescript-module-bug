@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "moduleResolution": "node",
+
+        "allowJs": true,
+        "allowSyntheticDefaultImports": false,
+
+        "baseUrl": ".",
+        "paths": {
+            "SharedComponents/*": ["components/*.android", "*"]
+        }
+    },
+    "exclude": [
+        "./node_modules/**/*"
+    ]
+}
